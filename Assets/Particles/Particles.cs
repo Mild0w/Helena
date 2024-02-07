@@ -8,6 +8,7 @@ public class Particles : MonoBehaviour
     public float particleLifetime = 3.0f;
     public AudioClip collisionSound; // Add the audio clip in the Unity Editor
     private AudioSource audioSource;
+ 
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class Particles : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("NotHolger"))
         {
+
             // Play collision sound
             PlayCollisionSound();
 
@@ -64,5 +66,6 @@ public class Particles : MonoBehaviour
         // Your update code here
     }
 }
+
 
 
