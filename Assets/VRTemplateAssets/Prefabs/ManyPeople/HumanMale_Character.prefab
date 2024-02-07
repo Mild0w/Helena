@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: NotHolger
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -6446574540532892045, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
