@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - Controller
+  - NotHolger
   layers:
   - Default
   - TransparentFX
